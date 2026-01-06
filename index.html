@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IT Training Program Admissions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <h1>IT Program Hub</h1>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#flow">Journey</a>
+      <a href="#portal">Portal</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Smart Admissions for College IT Training Programs</h2>
+      <p>
+        A unified digital gateway connecting colleges, students,
+        and industry-focused IT training programs.
+      </p>
+      <button id="startBtn">Get Started</button>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2 class="section-title">What This Platform Offers</h2>
+    <p class="section-desc">
+      Built to simplify collaboration between academic institutions
+      and professional IT training initiatives.
+    </p>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>Institution Collaboration</h3>
+        <p>Enable colleges to onboard and align seamlessly.</p>
+      </div>
+      <div class="card">
+        <h3>Student Enablement</h3>
+        <p>Clear communication and structured participation.</p>
+      </div>
+      <div class="card">
+        <h3>Skill Evaluation</h3>
+        <p>Merit-based online assessments.</p>
+      </div>
+      <div class="card">
+        <h3>Confirmed Enrollment</h3>
+        <p>Transparent progression to final onboarding.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLOW -->
+  <section id="flow" class="light-bg">
+    <h2 class="section-title">Admission Journey</h2>
+    <p class="section-desc">
+      A real-world inspired flow mapped to academic and training processes.
+    </p>
+
+    <div class="flow">
+      <div class="flow-step">Institution Engagement</div>
+      <div class="flow-step">Orientation Sessions</div>
+      <div class="flow-step">Student Registration</div>
+      <div class="flow-step">Online Assessment</div>
+      <div class="flow-step">Final Enrollment</div>
+    </div>
+  </section>
+
+  <!-- PEGA EMBED PLACEHOLDER -->
+  <section id="portal">
+  <div class="embed-box">
+    <h2>Application Portal</h2>
+    <p>Your interactive admission workflow loads here.</p>
+
+    <!-- PEGA EMBED START -->
+    <script src="https://ssvv4nsl.pegacea.net/prweb/PRRestService/c11nsvc/v1/pega-embed.js"></script>
+
+    <pega-embed
+      id="theEmbed"
+      action="createCase"
+      caseTypeID="BOS-CourseAdm-Work-CollegeITProgramEnablement"
+      themeID="pzEquuleus"
+      casePage="assignmentWithStages"
+      appAlias="course-admission-1"
+      pegaServerUrl="https://ssvv4nsl.pegacea.net/prweb/"
+      grantType="none"
+      style="width:100%">
+    </pega-embed>
+    <!-- PEGA EMBED END -->
+
+  </div>
+</section>
+  <!-- FOOTER -->
+  <footer>
+    © 2026 IT Program Hub · Academic–Industry Enablement Platform
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
